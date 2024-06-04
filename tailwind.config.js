@@ -1,11 +1,23 @@
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       colors: {
-        "accent-1": "rgba(var(--color-accent-1), <alpha-value>)",
+        primary: 'var(--color-primary)',
+        secondary: 'var(--color-secondary)',
+        negative: 'var(--color-negative)',
+        positive: 'var(--color-positive)',
+        'primary-background': 'var(--background-primary)',
+        'sec-background': 'var(--background-sec)',
+        'primary-text': 'var(--color-text-primary)',
       },
     },
+    backgroundColor: (theme) => ({
+      ...theme('colors'),
+    }),
+  },
+  variants: {
+    backgroundColor: ['active'],
   },
   plugins: [],
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
 };
