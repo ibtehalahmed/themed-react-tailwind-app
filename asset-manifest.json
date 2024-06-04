@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/themed-react-tailwind-app/static/css/main.fa26895c.css",
+    "main.js": "/themed-react-tailwind-app/static/js/main.6910e666.js",
+    "index.html": "/themed-react-tailwind-app/index.html",
+    "main.fa26895c.css.map": "/themed-react-tailwind-app/static/css/main.fa26895c.css.map",
+    "main.6910e666.js.map": "/themed-react-tailwind-app/static/js/main.6910e666.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa26895c.css",
+    "static/js/main.6910e666.js"
+  ]
+}
