@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 const App: React.FC = () => {
   return (
     <div className="bg-primary-background">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <div>
           <Routes>

@@ -18,22 +18,22 @@ const Navbar: React.FC = () => {
           <Link to="/"><img className='h-10 w-auto' src={logo} alt='React theme' /></Link>
         </div>
         <div className="flex space-x-4">
-          <Link to="/" className="primary-text">
+          <Link to="/" className="primary-text hover:text-purple-700">
             Home
           </Link>
-          <Link to="/products" className="primary-text">
+          <Link to="/products" className="primary-text hover:text-purple-700">
             Products
           </Link>
-          <Link to="/blogs" className="primary-text">
+          <Link to="/blogs" className="primary-text hover:text-purple-700">
             About Us
           </Link>
-          <Link to="/blogs" className="primary-text">
+          <Link to="/blogs" className="primary-text hover:text-purple-700">
             Blogs
           </Link>
-          <Link to="/admin" className="primary-text">
+          <Link to="/admin" className="primary-text hover:text-purple-700">
             Admin
           </Link>
-          <Link to="/" className="primary-text">
+          <Link to="/" className="primary-text hover:text-purple-700">
             Contact
           </Link>
         </div>
@@ -41,14 +41,14 @@ const Navbar: React.FC = () => {
           {theme === 'base' ? (
             <button
               onClick={() => setTheme('dark')}
-              className="w-12 h-12 flex items-center justify-center"
+              className="w-12 h-12 flex items-center justify-center hover:text-purple-700"
             > Dark
               <FontAwesomeIcon className='p-2' icon={faMoon} />
             </button>
           ) : (
             <button
               onClick={() => setTheme('base')}
-              className="w-12 h-12 flex items-center justify-center"
+              className="w-12 h-12 flex items-center justify-center hover:text-purple-700"
             >Light
               <FontAwesomeIcon className='p-2' icon={faSun} />
             </button>

@@ -7,7 +7,8 @@ import FeaturedProducts from '../components/FeaturedProducts';
 import LatestBlogs from '../components/LatestBlogs';
 import Testimonials from '../components/Testimonials';
 import NewsletterSignup from '../components/NewsletterSignup';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
 import Button from '../components/Button';
 
@@ -25,17 +26,17 @@ const HomePage: React.FC = () => {
     <LatestBlogs /> */}
       <Testimonials />
       <NewsletterSignup />
-      <Button label="Learn More" onClick={() => console.log('Button clicked!')} />
+      {/* <Button label="Learn More" onClick={() => console.log('Button clicked!')} />
       <div className="mt-4">
         {theme === 'base' ? (
           <Button label="Apply Dark Theme" onClick={() => setTheme('dark')} />
         ) : (
           <Button label="Apply Light Theme" onClick={() => setTheme('base')} />
         )}
-      </div>
+      </div> */}
+
+
     </main>
-
-
   )
 };
 
