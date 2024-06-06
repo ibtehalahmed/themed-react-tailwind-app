@@ -16,7 +16,7 @@ const AdminPage: React.FC = () => {
     setTheme(newTheme);
   };
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 py-24 sm:py-32">
       <h1 className="text-4xl mb-4">Admin Configuration</h1>
       <div className="mt-4">
         <label className="block mb-2">Color Palette:</label>

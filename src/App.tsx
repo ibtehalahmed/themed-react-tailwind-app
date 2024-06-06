@@ -10,10 +10,10 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 const App: React.FC = () => {
   return (
-    <>
+    <div className="bg-primary-background">
       <Router>
         <Navbar />
-        <div className="bg-primary-background">
+        <div>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/products" element={<ProductsPage />} />
@@ -25,7 +25,7 @@ const App: React.FC = () => {
         </div>
         <Footer />
       </Router>
-    </>
+    </div>
   );
 };
 

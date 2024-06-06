@@ -18,25 +18,24 @@ const HomePage: React.FC = () => {
   }, [theme]);
 
   return (
-   
-    <main className="mx-auto p-4">
-       <HeroSection />
-    {/* <FeaturedProducts />
+
+    <main className="mx-auto">
+      <HeroSection />
+      {/* <FeaturedProducts />
     <LatestBlogs /> */}
-    <Testimonials />
-    <NewsletterSignup />
-      {/* <h1 className="text-4xl mb-4">Welcome to our React Tailwind DYNAMIC Theme</h1> */}
-      {/* <Button label="Learn More" onClick={() => console.log('Button clicked!')} />
+      <Testimonials />
+      <NewsletterSignup />
+      <Button label="Learn More" onClick={() => console.log('Button clicked!')} />
       <div className="mt-4">
-          {theme === 'base' ? (
-            <Button label="Apply Dark Theme" onClick={() => setTheme('dark')}/>
-          ) : (
-            <Button label="Apply Light Theme" onClick={() => setTheme('base')}/>
-          )}
-        </div> */}
+        {theme === 'base' ? (
+          <Button label="Apply Dark Theme" onClick={() => setTheme('dark')} />
+        ) : (
+          <Button label="Apply Light Theme" onClick={() => setTheme('base')} />
+        )}
+      </div>
     </main>
-   
-  
+
+
   )
 };
 

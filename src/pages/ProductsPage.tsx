@@ -11,7 +11,7 @@ const ProductsPage: React.FC = () => {
   }, []);
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 py-24 sm:py-32">
       <h1 className="text-4xl mb-4">Products</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
         {products.map((product) => (
